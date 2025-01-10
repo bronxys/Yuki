@@ -1,0 +1,44 @@
+{
+  "name": "instagram-url-direct",
+  "version": "1.1.3",
+  "description": "Get direct url to download from Instagram media links",
+  "main": "src/instagram.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorsouzaleal/instagram-direct-url.git"
+  },
+  "keywords": [
+    "instagram",
+    "downloader",
+    "media",
+    "link",
+    "photo",
+    "video",
+    "url",
+    "picture",
+    "image",
+    "download"
+  ],
+  "author": "victorsouzaleal <victorsouzaleal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorsouzaleal/instagram-direct-url/issues"
+  },
+  "homepage": "https://github.com/victorsouzaleal/instagram-direct-url#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "qs": "^6.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-extended": "^4.0.2"
+  }
+}
